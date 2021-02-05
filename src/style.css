@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  background-color: #464646;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+svg {
+  background-color: #eaeaea;
+  border: 2px solid black;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+#title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.doping {
+  fill: red;
+  opacity: 1;
+  stroke: black;
+}
+.doping:hover {
+  fill: red;
+  opacity: 0.5;
+}
+
+.not-doping{
+  fill: green;
+  opacity: 1;
+  stroke: black;
+}
+
+.not-doping:hover {
+  fill: green;
+  opacity: 0.5;
+}
+
+.container {
+  position: relative;
+}
+
+#tooltip {
+  position: absolute;
+  background-color: gray;
+  font-size: 9pt;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
